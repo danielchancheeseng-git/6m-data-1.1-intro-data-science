@@ -5,6 +5,8 @@
 
 **The AI vs. DS vs. Analytics Table**
 
+Video: ▶️ [Data, Science & AI Explained](https://www.youtube.com/watch?v=5t2XOMxu76E)
+
 | Feature | Data Analytics | Data Science | Artificial Intelligence |
 | :---- | :---- | :---- | :---- |
 | **Goal** | Explain what happened in the past. | Predict what will happen next. | Automate decisions like a human. |
