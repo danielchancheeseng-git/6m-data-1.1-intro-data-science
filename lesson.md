@@ -31,7 +31,7 @@ Explain the difference between Data Analytics, Data Science, and AI.
 
 1. **The Matrix:** Provide learners with 5 scenarios (e.g., A bank detecting fraud, a manager making a pivot table, a self-driving car braking).
 
-2. **The Python Peek (Code Demo):** Show how we check data types to distinguish between "Reporting" and "Modeling."
+2. **The Python Peek (Code Demo):** Show how we check data types to distinguish between "Reporting" and "Modeling." (Instructor/Learner can run following code in Colab)
 
 ```python
 
@@ -112,7 +112,25 @@ If the "Cleaning" stage fails (e.g., we count the time the watch was on the nigh
 
 ### **Q\&A & Reflection (10 min)**
 
-* **Beginner Hurdle:** "Is JSON structured or unstructured?" (It's Semi-structured\! The 'In-between' state).  
+* **Beginner Hurdle:** "Is JSON structured or unstructured?" (It's Semi-structured\! The 'In-between' state).
+* JSON is **semi-structured data**, not purely structured or unstructured. This classification places it between the two extremes of the data organization spectrum. [singlestore](https://www.singlestore.com/blog/what-is-structured-semi-structured-and-unstructured-data/)
+
+#### What Makes JSON Semi-Structured
+
+JSON contains internal organization through key-value pairs, arrays, and objects, which provides structure for storing and organizing information. However, it doesn't follow the rigid, predefined schema required by structured data formats like relational databases with fixed tables, rows, and columns. [datasunrise](https://www.datasunrise.com/knowledge-center/what-is-json/)
+
+The flexibility of JSON allows entities within the same dataset to have different attributes, and the order of attributes isn't critical. For example, one JSON record might contain fields for name, age, and email, while another record could include additional fields or omit some entirely without breaking the format. [altexsoft](https://www.altexsoft.com/blog/semi-structured-data/)
+
+#### Key Characteristics
+
+JSON's semi-structured nature offers several advantages: [snowflake](https://www.snowflake.com/en/fundamentals/understanding-structured-semi-structured-and-unstructured-data/)
+- More flexible than strictly structured data found in relational databases
+- Has inherent structure unlike completely unstructured data such as raw text or video files
+- Self-describing through tags and metadata that provide context about what the data represents
+- Allows data schemas to evolve over time without requiring major restructuring
+
+This flexibility makes JSON ideal for modern web applications, APIs, and scenarios where data structures may change frequently. [datasunrise](https://www.datasunrise.com/knowledge-center/what-is-json/)
+
 * **Business Case:** Why 80% of a Data Scientist's time is spent in the "Cleaning" stage.
 
 ## **⚖️ Section 3: The Conscious Algorithm (60 min)**
